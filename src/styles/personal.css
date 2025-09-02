@@ -1,0 +1,47 @@
+
+.personal-container {
+    background-color: rgb(234, 206, 206);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+}
+
+.profile {
+    color: rgb(209, 131, 131);
+}
+
+.profile .profile-details {
+    color: #213547;
+    font-size: large;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+h3 {
+    color:rgb(230, 192, 143)
+}
+
+.label-block {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    padding: 6px;
+    background-color: rgb(214, 249, 249);
+    align-items: start;
+    border-radius: 0px 50px 0px 8px;
+}
+
+.label-block label {
+    font-family:monospace;
+    font-size: large;
+    font-weight:normal;
+}
+
+.label-block input, .label-block textarea {
+    padding: .7rem;
+    width: 10vw;
+    border-radius: 0px 20px 0px 8px;
+    background-color: #213547;
+}
